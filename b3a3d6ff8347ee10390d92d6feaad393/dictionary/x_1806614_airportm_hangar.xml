@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="cb6712f38387ee10390d92d6feaad30c" label="Hangar" max_length="40" name="x_1806614_airportm_hangar" type="collection">
+        <element label="Capacity" max_length="40" name="capacity" type="integer"/>
+        <element label="Hangar ID" max_length="40" name="hangar_id" type="string"/>
+        <element label="Occupied" max_length="40" name="occupied" type="boolean"/>
+        <element label="Location" max_length="40" name="location" type="string"/>
+        <element label="Last Maintenance" max_length="40" name="last_maintenance" type="glide_date"/>
+    </element>
+</database>

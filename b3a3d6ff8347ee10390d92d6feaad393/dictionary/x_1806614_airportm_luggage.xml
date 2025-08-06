@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="00265af38387ee10390d92d6feaad33b" label="Luggage" max_length="40" name="x_1806614_airportm_luggage" type="collection">
+        <element label="Weight" max_length="20" name="weight" type="decimal"/>
+        <element label="Passenger" max_length="32" name="passenger" reference="x_1806614_airportm_passenger_request" type="reference"/>
+        <element label="Flight" max_length="32" name="flight" reference="x_1806614_airportm_flight" type="reference"/>
+        <element label="Baggage ID" max_length="40" name="baggage_id" type="string"/>
+        <element label="Passenger Name" max_length="40" name="passenger_name" type="string"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice/>
+        </element>
+        <index name="index">
+            <element name="flight"/>
+        </index>
+        <index name="index2">
+            <element name="passenger"/>
+        </index>
+    </element>
+</database>
